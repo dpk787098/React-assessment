@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.sales_executive_bar_wrapper{
+    display: flex;
+    border-bottom: 2px solid rgb(48, 45, 45);
+    background-color: rgb(196, 204, 204);
+    font-size: 16px;
+    width: 100%;
+    align-items: center;
+}
+
+.sales_executive_bar_wrapper:hover{
+    background-color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.sales_executive_bar_wrapper > div{
+    width: calc(69%/5);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.sales_executive_bar_wrapper > div:nth-child(3){
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sales_executive_bar_wrapper > div:nth-child(7){
+    width: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+i:hover{
+    cursor: pointer;
+    transform: scale(1.4,1.4);
+    color: #ff0000;
+    transition: all 0.3s;
+}
+

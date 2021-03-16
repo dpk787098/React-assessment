@@ -1,0 +1,36 @@
+.order_card_Wrapper{
+    width: calc(25% - 20px);
+    background: rgb(250, 248, 248);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.order_card_Wrapper:hover{
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0 8px 8px rgb(95, 94, 94);
+    color: rgb(7, 108, 167);
+}
+
+.order_card_Wrapper>div{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    margin: 5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.order_card_delete_icon_wrapper{
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 5px;
+}
+
+i{
+    color: #000;
+    align-self: center;
+}

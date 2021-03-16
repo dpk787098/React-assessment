@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.manage_order_wrapper{
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.manage_order_bar{
+    margin-top: 70px;
+    height: calc(100% - 70px);
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(224, 179, 250);
+    padding: 10px;
+}

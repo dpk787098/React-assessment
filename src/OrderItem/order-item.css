@@ -1,0 +1,13 @@
+.item_wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    margin-bottom: 5px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.item_wrapper>p{
+    margin: 0;
+    padding: 0;
+}

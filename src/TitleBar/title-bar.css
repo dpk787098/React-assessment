@@ -1,0 +1,16 @@
+.title_name{
+    width: 100%;
+    display: flex;
+    background-color: slategrey;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    color: rgb(235, 226, 226);   
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    border-top: 8px solid rgb(138, 155, 110);
+    border-bottom: 8px solid rgb(138, 155, 110);
+}
