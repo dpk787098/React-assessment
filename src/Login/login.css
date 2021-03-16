@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 20px;
     align-items: center;
+    border: 2px solid #ccc;
 }
 
 .login_form_wrapper h2{
