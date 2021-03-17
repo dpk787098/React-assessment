@@ -2,7 +2,7 @@
   "name": "store_mgmt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dpk787098.github.io/react-assessment-15th-03-2021",
+  "homepage": "https://dpk787098.github.io/react-assessment-15th-03-2021/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
